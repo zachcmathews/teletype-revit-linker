@@ -12,10 +12,10 @@ settings in Atom:
 - :x: Settings > Editor > Soft Tabs
 - :heavy_check_mark: Settings > Editor > Soft Wrap
 
-As of now, the [https://github.com/zachcmathews/keynotesRTC](KeynotesRTC add-in)
+As of now, the [KeynotesRTC add-in](https://github.com/zachcmathews/keynotesRTC)
 for Revit must be installed manually, but I am working on getting the code
 signed (to prevent the warning dialogs at startup) and an installer published
 on the Revit add-ins store.
 
 Instructions for installation can be found in the
-[https://github.com/zachcmathews/keynotesRTC](KeynotesRTC add-in repository).
+[KeynotesRTC add-in repository](https://github.com/zachcmathews/keynotesRTC).
