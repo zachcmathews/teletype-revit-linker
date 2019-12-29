@@ -8,7 +8,7 @@
     "teletype-revit",
     "revit-linker"
   ],
-  "repository": "",
+  "repository": "https://github.com/zachcmathews/teletype-revit-linker",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
