@@ -14,7 +14,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "teletype": ">=0.13.4"
+    "teletype": "git+https://github.com/atom/teletype.git#semver:~0.13.3"
   },
   "consumedServices": {
     "teletype": {
