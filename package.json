@@ -17,7 +17,7 @@
   "consumedServices": {
     "teletype": {
       "versions": {
-        "0.0.1": "consumeTeletype"
+        ">=0.0.1": "consumeTeletype"
       }
     }
   },
