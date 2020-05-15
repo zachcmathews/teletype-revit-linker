@@ -1,0 +1,18 @@
+{
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": 9,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"node": true,
+		"es6": true
+	},
+	"rules": {
+		"no-console": "off",
+		"semi": ["error", "always"],
+		"max-len": ["error", {"code": 79, "tabWidth": 2}],
+    "indent": ["error", 2]
+	}
+}
