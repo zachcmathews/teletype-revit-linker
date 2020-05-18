@@ -1,6 +1,6 @@
 {
   "name": "teletype-revit-linker",
-  "main": "./lib/teletype-revit-linker",
+  "main": "index.js",
   "version": "0.2.0",
   "description": "Provides the interface between the Revit KeynotesRTC add-in and the Teletype for Atom package. Allows real-time collaboration on Revit keynote files.",
   "keywords": [
@@ -13,7 +13,27 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "configSchema": {
+    "devMode": {
+      "title": "Development Mode",
+      "type": "boolean",
+      "default": "false"
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^5.1.0"
+  },
+  "package-deps": [
+    "teletype:0.13.4"
+  ],
+  "providedServices": {
+    "teletype-revit-linker": {
+      "description": "Provides interface to teletype-revit-linker",
+      "versions": {
+        "1.0.0": "provideTeletypeRevitLinker"
+      }
+    }
+  },
   "consumedServices": {
     "teletype": {
       "versions": {
@@ -22,6 +42,7 @@
     }
   },
   "uriHandler": {
-    "method": "handleURI"
+    "method": "handleURI",
+    "deferActivation": false
   }
 }
