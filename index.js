@@ -1,8 +1,7 @@
 /* global atom */
-const TeletypeRevitLinkerPackage =
-  require('./lib/teletype-revit-linker-package');
+const TeletypeRevitLinker = require('./lib/teletype-revit-linker');
 
-module.exports = new TeletypeRevitLinkerPackage({
+module.exports = new TeletypeRevitLinker({
   config: atom.config,
   workspace: atom.workspace,
   notificationManager: atom.notifications,

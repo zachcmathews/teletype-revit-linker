@@ -17,7 +17,7 @@
     "devMode": {
       "title": "Development Mode",
       "type": "boolean",
-      "default": "false"
+      "default": false
     }
   },
   "dependencies": {
@@ -28,9 +28,9 @@
   ],
   "providedServices": {
     "teletype-revit-linker": {
-      "description": "Provides interface to teletype-revit-linker",
+      "description": "Provides access to teletype-revit-linker.",
       "versions": {
-        "1.0.0": "provideTeletypeRevitLinker"
+        "0.2.0": "provideTeletypeRevitLinker"
       }
     }
   },
@@ -42,7 +42,6 @@
     }
   },
   "uriHandler": {
-    "method": "handleURI",
-    "deferActivation": false
+    "method": "handleURI"
   }
 }
