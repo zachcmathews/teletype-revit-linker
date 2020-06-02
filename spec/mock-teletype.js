@@ -1,13 +1,21 @@
+/* eslint no-unused-vars: off */
 const { Emitter } = require('atom');
 
 module.exports =
 class TeletypePackage {
-  constructor() {
+  constructor(options) {
     this.portalBindingManager = new PortalBindingManager();
   }
 
+  handleURI() {}
+  showPopover() {}
+
   sharePortal() {
-    return true;
+    return {
+      delegate: {
+        uri: 'test'
+      }
+    };
   }
 
   getPortalBindingManager() {
@@ -17,7 +25,6 @@ class TeletypePackage {
 
 class PortalBindingManager {
   constructor() {
-    this.emitter = new Emitter();
   }
 
   getHostPortalBinding() {
@@ -25,6 +32,8 @@ class PortalBindingManager {
   }
 
   onDidChange(cb) {
-    return this.emitter.on('did-change', cb);
+    return {
+      dispose: () => {}
+    };
   }
 }

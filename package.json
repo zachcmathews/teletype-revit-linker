@@ -42,7 +42,6 @@
     }
   },
   "uriHandler": {
-    "method": "handleURI",
-    "deferActivation": false
+    "method": "handleURI"
   }
 }
