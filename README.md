@@ -1,12 +1,8 @@
 # Teletype-Revit-Linker
-Provides the interface between the pyRevitBoost's **Edit Keynotes** command 
+Provides the interface between pyRevitBoost's **Edit Keynotes** command 
 and the Teletype for Atom package.
 
-You can install this linker through the package manager in the
-[Atom editor](https://atom.io/) found under Settings > Install. Make sure you
-have the teletype package installed and URI handling turned on as well.
-
-## Instructions
+## Installation
 1. Install [pyRevit](https://github.com/eirannejad/pyRevit/releases).
 1. Install [pyRevitBoost](http://zacharymathews.com/pyRevitBoost).
     - Download [here](https://github.com/zachcmathews/pyRevitBoost/archive/master.zip).
