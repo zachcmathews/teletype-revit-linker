@@ -22,16 +22,16 @@ use at [https://teletype.zacharymathews.com](https://teletype.zacharymathews.com
 
 Make the following changes to File > Settings > Packages > teletype > Settings > Development Settings:
 
-    API server base URL: https://teletype.zacharymathews.com
-    Pusher service key: 3a582d9d72f0ad8fc640
-    Pusher cluster name: us2
+- API server base URL: https://teletype.zacharymathews.com
+- Pusher service key: 3a582d9d72f0ad8fc640
+- Pusher cluster name: us2
 
 Generate the token:
 
-    Navigate your web browser to https://teletype.zacharymathews.com/auth/github/.
-    You will be redirected to a GitHub sign in page.
-    Sign in and authorize the Teletype application.
-    You will be redirected to https://teletype.zacharymathews.com/auth/github/callback?code=CODE where your OAuth token is given. 
+1. Navigate your web browser to https://teletype.zacharymathews.com/auth/github/.
+1. You will be redirected to a GitHub sign in page.
+1. Sign in and authorize the Teletype application.
+1. You will be redirected to https://teletype.zacharymathews.com/auth/github/callback?code=CODE where your OAuth token is given. 
 
 Restart Atom.
 Click the Telephone tower icon in the bottom right, and it will ask for the OAuth token.
