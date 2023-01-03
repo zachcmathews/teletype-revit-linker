@@ -34,4 +34,5 @@ Generate the token:
 1. You will be redirected to https://teletype.zacharymathews.com/auth/github/callback?code=CODE where your OAuth token is given. 
 
 Restart Atom.
+
 Click the Telephone tower icon in the bottom right, and it will ask for the OAuth token.
