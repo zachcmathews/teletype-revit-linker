@@ -28,10 +28,10 @@ Make the following changes to File > Settings > Packages > teletype > Settings >
 
 Generate the token:
 
-    Navigate your web browser to [https://teletype.zacharymathews.com/auth/github/](https://teletype.zacharymathews.com/auth/github/).
+    Navigate your web browser to https://teletype.zacharymathews.com/auth/github/.
     You will be redirected to a GitHub sign in page.
     Sign in and authorize the Teletype application.
-    You will be redirected to [https://teletype.zacharymathews.com/auth/github/callback?code=CODE](https://teletype.zacharymathews.com/auth/github/callback?code=CODE) where your OAuth token is given. 
+    You will be redirected to https://teletype.zacharymathews.com/auth/github/callback?code=CODE where your OAuth token is given. 
 
 Restart Atom.
 Click the Telephone tower icon in the bottom right, and it will ask for the OAuth token.
