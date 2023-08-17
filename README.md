@@ -12,6 +12,12 @@ and the Teletype for Atom package.
 1. Install [Atom](https://atom.io/).
 1. Enable URI handling.
     - `Settings → URI Handling → Register as default atom:// protocol handler`
+1. Enable Show Invisibles.
+    - `Settings → Editor → Show Invisibles`
+1. Disable Soft Tabs.
+    - `Settings → Editor → Soft Tabs`
+1. Set Tab Type to hard.
+    - `Settings → Editor → Tab Type`
 1. Install [Teletype for Atom](https://atom.io/packages/teletype).
 1. Install [teletype-revit-linker](https://atom.io/packages/teletype-revit-linker).
 1. Run **Edit Keynotes** from a project document.
