@@ -9,7 +9,8 @@ and the Teletype for Atom package.
     - Extract into an appropriate location.
     - Then, follow the instructions [here](https://www.notion.so/Install-Extensions-0753ab78c0ce46149f962acc50892491) 
     for adding a pyRevit extension manually.
-1. Install [Atom](https://atom.io/).
+1. Download and extract [Atom](https://github.com/atom/atom/releases/download/v1.60.0/atom-windows.zip) to suitable location.
+1. Run Atom/atom.exe at extracted location.
 1. Enable URI handling.
     - `Settings → URI Handling → Register as default atom:// protocol handler`
 1. Enable Show Invisibles.
@@ -18,8 +19,10 @@ and the Teletype for Atom package.
     - `Settings → Editor → Soft Tabs`
 1. Set Tab Type to hard.
     - `Settings → Editor → Tab Type`
-1. Install [Teletype for Atom](https://atom.io/packages/teletype).
-1. Install [teletype-revit-linker](https://atom.io/packages/teletype-revit-linker).
+1. Create .atom directory in same directory as Atom directory.
+1. Create packages directory in .atom directory.
+1. Download [Teletype for Atom](https://github.com/atom/teletype/archive/refs/tags/v0.13.3.zip) and extract in packages directory.
+1. Download [teletype-revit-linker](https://github.com/zachcmathews/teletype-revit-linker/archive/refs/tags/v1.0.0.zip) and extract in packages directory.
 1. Run **Edit Keynotes** from a project document.
 
 # :heavy_exclamation_mark::heavy_exclamation_mark: Update 2023 :heavy_exclamation_mark::heavy_exclamation_mark:
